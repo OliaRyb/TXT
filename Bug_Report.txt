@@ -1,1 +1,12 @@
-
+ 1. Id: 1
+ 2. Priority: minor
+ 3. Title: The block 'Education' didn't transleted on arabic language
+ 4. Steps: 
+      1. Navigate to capital.com
+      2. Choose arabic language
+      3. Scroll to Block 'Education'
+ 5. Expected result: 
+        Block 'Education' is in arabic language
+ 6. Actual result:
+        Block 'Education' is in english language,
+ 7. Bug started: @volia_dreamer.
