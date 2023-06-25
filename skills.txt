@@ -1,0 +1,3 @@
+We learnt such utilities as Git Bash, Postman, DevTools.
+Aslo we sdudied such program languages as Python, SQL an JS.
+And we have known such Markup languages: html, css, xml.
