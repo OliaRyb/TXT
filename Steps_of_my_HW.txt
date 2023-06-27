@@ -1,0 +1,30 @@
+1. Создать внешний репозиторий c названием TXT.
+2. Клонировать репозиторий TXT на локальный компьютер. 				2. git clone git@github.com:OliaRyb/JSON.git
+																		cd txt
+3. Внутри локального TXT создать файл “new.txt”.					3. touch new.txt
+4. Добавить файл под гит.											4. git add new.txt
+5. Закоммитить файл.												5. git commit -m "Initial commit"
+6. Отправить файл на внешний GitHub репозиторий.					6. git push
+7. Отредактировать содержание файла new.txt - написать 				7. cat > new.txt
+ информацию о себе (ФИО, возраст, количество домашних животных, 	My name is Olia. I am 27 years old. I don't have any pets. I 
+ будущая желаемая зарплата). Всё написать в формате TXT.			want to have a salary equil to 1 000 000.	
+8. Отправить изменения на внешний репозиторий.						8. git commit	-m "Added personal data" -a 
+9. Создать файл preferences.txt										9. touch preferences.txt
+10. В файл preferences.txt добавить информацию о своих 				10. cat > preferences.txt
+ предпочтениях (Любимый фильм, любимый сериал, любимая еда, 		My favorite movie is Marley and I. My favorite series is 
+ любимое время года, сторона которую хотели бы посетить) в 			Castle. My favorite seosone is winter. My favorite food is 
+ формате TXT.														burger. And I really want to visit Tanzania.		
+11. Создать файл sklls.txt добавить информацию о скиллах, 			11. touch skills.txt
+ которые будут изучены на курсе в формате TXT.							cat > skills.txt
+																		We learnt such utilities as Git Bash, Postman, DevTools.
+																		Aslo we sdudied such program languages as Python, SQL an JS.
+																		And we have known such Markup languages: html, css, xml.
+
+12. Отправить сразу 2 файла на внешний репозиторий.					12. git add .
+13. На веб интерфейсе создать файл bug_report.txt.
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+15. На веб интерфейсе модифицировать файл bug_report.txt, 		
+ добавить баг репорт в формате txt.
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+17. Синхронизировать внешний и локальный репозиторий TXT.			17. git pull
+
