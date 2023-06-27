@@ -1,5 +1,5 @@
 1. Создать внешний репозиторий c названием TXT.
-2. Клонировать репозиторий TXT на локальный компьютер. 				2. git clone git@github.com:OliaRyb/JSON.git
+2. Клонировать репозиторий TXT на локальный компьютер. 				2. git clone git@github.com:OliaRyb/txt.git
 																		cd txt
 3. Внутри локального TXT создать файл “new.txt”.					3. touch new.txt
 4. Добавить файл под гит.											4. git add new.txt
@@ -20,7 +20,9 @@
 																		Aslo we sdudied such program languages as Python, SQL an JS.
 																		And we have known such Markup languages: html, css, xml.
 
-12. Отправить сразу 2 файла на внешний репозиторий.					12. git add .
+12. Отправить сразу 2 файла на внешний репозиторий.					12. git add ./
+																		git commit -m "Added new files with data"
+																		git push				
 13. На веб интерфейсе создать файл bug_report.txt.
 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 15. На веб интерфейсе модифицировать файл bug_report.txt, 		
